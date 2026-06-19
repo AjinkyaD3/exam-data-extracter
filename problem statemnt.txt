@@ -1,0 +1,11 @@
+**Problem Statement**
+
+Educational institutions such as Dr. Babasaheb Ambedkar Technological University (DBATU) publish academic examination results in PDF format for different courses, branches, semesters, and examination sessions. These result PDFs contain important academic information including subject details, credit structures, examination components, student records, grades, SGPA, result status, and total marks. Although the information is generated digitally, it is presented in a report-oriented layout intended for human reading rather than direct machine processing.
+
+A major challenge is that result reports vary across semesters, branches, and academic programs. Subject codes, subject names, credit distributions, and evaluation schemes may change from one examination session to another. Traditional PDF extraction methods that depend on fixed column positions, hardcoded subject names, or semester-specific templates become difficult to maintain and often fail when a new result format is introduced.
+
+The objective of this project is to develop an automated academic result processing system capable of converting DBATU result PDFs into structured and machine-readable data. The system must automatically identify examination metadata, discover subject information, extract credit structures, reconstruct student records, and generate organized outputs such as Excel sheets, CSV files, JSON documents, or database records.
+
+Unlike conventional PDF parsers that treat documents as plain text, the proposed system reconstructs the logical table structure hidden within the PDF by analyzing document layout, row relationships, and column alignment. The extracted information includes examination details, subject master data, credit and marking schemes, student details, SGPA, result status, total marks, and subject-wise performance. The system should work across different semesters, branches, and examination sessions without requiring manual modifications for each new result report.
+
+The final goal is to create a scalable, accurate, and reusable academic result extraction platform that minimizes manual effort, improves data accessibility, supports further analytics, and enables educational institutions to efficiently transform unstructured result PDFs into structured academic datasets.
